@@ -25,6 +25,7 @@ export default function Footer() {
         
         <div className="footer-bottom">
           <p>&copy; {new Date().getFullYear()} Voice Wings. All rights reserved.</p>
+          <p className="developer-credit">Designed and developed by <a href="https://odoocrafts.com" target="_blank" rel="noopener noreferrer">odoocrafts.com</a></p>
         </div>
       </div>
     </footer>
