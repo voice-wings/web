@@ -1,0 +1,62 @@
+/* src/components/Hero.css */
+.hero-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.hero-content {
+  max-width: 650px;
+  padding: 50px;
+  margin-top: 40px;
+}
+
+.hero-title {
+  font-size: 4rem;
+  margin-bottom: 24px;
+  color: var(--color-text);
+  letter-spacing: -1px;
+}
+
+.highlight-text {
+  font-family: 'Outfit', sans-serif;
+  font-style: italic;
+  font-size: 4.5rem;
+  display: inline-block;
+  transform: rotate(-2deg);
+  padding-right: 0.15em;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: var(--color-text-light);
+  margin-bottom: 40px;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 16px;
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 3rem;
+  }
+  
+  .highlight-text {
+    font-size: 3.5rem;
+  }
+  
+  .hero-content {
+    padding: 30px;
+  }
+}
