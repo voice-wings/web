@@ -1,5 +1,6 @@
 import React from 'react';
 import { MessageCircle } from 'lucide-react';
+import logoImg from '../assets/logo.png';
 import './Footer.css';
 
 export default function Footer() {
@@ -8,7 +9,7 @@ export default function Footer() {
       <div className="container">
         <div className="footer-content">
           <div className="footer-logo">
-            <img src="/logo.png" alt="Voice Wings Logo" className="logo-img" />
+            <img src={logoImg} alt="Voice Wings Logo" className="logo-img" />
             <p className="tagline">Because every voice has wings. We help them fly.</p>
           </div>
           

@@ -30,6 +30,10 @@ export default function About() {
                   <Ear className="highlight-icon" />
                   <span>First-hand Cochlear Implant Experience</span>
                 </div>
+                <div className="highlight-item">
+                  <Sparkles className="highlight-icon" />
+                  <span>Kerala's First Pediatric Cochlear Implant Recipient</span>
+                </div>
               </div>
 
               <div className="special-class-banner glass">

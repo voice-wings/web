@@ -1,5 +1,6 @@
 import React from 'react';
 import { MessageCircle } from 'lucide-react';
+import logoImg from '../assets/logo.png';
 import './Header.css';
 
 export default function Header() {
@@ -7,7 +8,7 @@ export default function Header() {
     <header className="header glass">
       <div className="container header-container">
         <div className="logo-container">
-          <img src="/logo.png" alt="Voice Wings Logo" className="logo-img" />
+          <img src={logoImg} alt="Voice Wings Logo" className="logo-img" />
         </div>
         <nav className="nav-links">
           <a href="#services">Services</a>
